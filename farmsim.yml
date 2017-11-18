@@ -3,7 +3,7 @@ zip_name: FS17_RM_Seasons
 version: 1.2.1.0
 type: script
 
-code: src/
+scripts: src/
 main: src/loader.lua
 
 resources:
@@ -28,6 +28,8 @@ translations:
 templates:
   debug: true
   verbose: true
+  buildnumber: 1000
+  simpleVersion: 3
 
 release:
   clean_translations: true
